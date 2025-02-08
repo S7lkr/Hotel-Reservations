@@ -84,6 +84,15 @@ body {
     justify-content: space-between;
 }
 
+.background {
+    width: 430px;
+    height: 415px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+}
+
 .background .shape {
     height: 200px;
     width: 200px;
@@ -96,6 +105,13 @@ body {
     ;
     left: -80px;
     top: -80px;
+}
+
+.shape:last-child {
+    background: linear-gradient(to right, #daa022, #f09819);
+    ;
+    right: -30px;
+    bottom: -80px;
 }
 
 form {
@@ -169,22 +185,6 @@ button:hover {
 
 .selected-room{
     background-color: #cfcbca;
-}
-
-.background {
-    width: 430px;
-    height: 415px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 60%;
-}
-
-.shape:last-child {
-    background: linear-gradient(to right, #daa022, #f09819);
-    ;
-    right: -30px;
-    bottom: -80px;
 }
 
 label {
@@ -296,4 +296,13 @@ input {
 
 .selected-room{
     background-color: #cfcbca !important;
+}
+
+.confirm-reservation {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-content: center;
 }
