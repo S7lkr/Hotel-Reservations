@@ -1,8 +1,9 @@
 # Hotel Reservations Project
 
 ## Each team member chooses a role:
-####	Member #1: takes the role of Questioner.
-####	Member #2: takes the role of Offerer.
-####	Member #3: takes the role of Admin.
-####	Member #4: takes the role of Verifier.
+
+•	Member #1: Questioner's functionality (Search Form) 
+•	Member #2: Offerer's functionality (Our Offers Form)
+•	Member #3: Admin's functionality (Guest Details Form)
+•	Member #3: Verifier's functionality (Confirm Reservation Form)
 
